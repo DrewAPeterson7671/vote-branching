@@ -16,33 +16,31 @@
     <form id="ageForm">
       <div class="form-group">
         <label for="age">Input Your Age</label>
-        <input id="age" type="number" name="Age" value="">
+        <input id="age" type="number" name="age" min='0' max='150.'>
       </div>
     </form>
 
     <!--18 or older-->
-    <div class="register">
-      <ul>
-      <li><a href="#">Register to Vote</a></li>
-      <li><a href="#">Find Your Polling Place</a></li>
-      <li><a href="#">Upcoming Elections</a></li>
-    </ul>
-    </div>
+    <div class="row">
 
-    <!--Younger than 18 -->
-    <div class="info">
-      <ul>
-      <li><a href="#">Civic Responsibility</a></li>
-      <li><a href="#">Voter Registration Requirements</a></li>
-    </ul>
+      <div class="col-md-6 register">
+        <ul>
+          <li><a href="#">Register to Vote</a></li>
+          <li><a href="#">Find Your Polling Place</a></li>
+          <li><a href="#">Upcoming Elections</a></li>
+        </ul>
+      </div>
+
+      <!--Younger than 18 -->
+      <div class="col-md-6 info">
+        <ul>
+          <li><a href="#">Civic Responsibility</a></li>
+          <li><a href="#">Voter Registration Requirements</a></li>
+        </ul>
+      </div>
     </div>
 
   </div>
-
-
-
-
-</div>
 
 </body>
 </html>
